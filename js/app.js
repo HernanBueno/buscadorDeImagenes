@@ -58,7 +58,7 @@ function mostrarAlerta(mensaje) {
 async function buscarImagenes() {
     const termino = document.querySelector("#termino").value;
 
-    const key = "19874041-ab81c746a05004555c0b75637";
+    const key = "";
     const url = `https://pixabay.com/api/?key=${key}&q=${termino}&per_page=${registrosPorPagina}&page=${paginaActual}`;
 
     try {
